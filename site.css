@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Slab:wght@400;900&display=swap');
+
 .attribution {
     font-size: 11px; text-align: center;
 }
@@ -7,16 +10,25 @@
 body {
     font-size: 1.5em;
     color: white;
+    font-family: 'Poppins', sans-serif ,'Roboto Slab', serif;
 }
 html > *{
     background: none;
 }
 html{
+    padding: 200px;
 min-height: 100%;
     background:url("images/bg-intro-desktop.png") hsl(0, 100%, 74%);
     background-size: cover;
     background-blend-mode: multiply;
     text-align: center;
+}
+.btn_action{
+    background-color: blue;
+    border-radius: 10px;
+}
+form{
+    color: black;
 }
 
 
