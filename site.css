@@ -4,3 +4,16 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
+body {
+    font-size: 1.5em;
+
+}
+html{
+
+}
+
+
+
+@media screen and (min-width: 576px){
+
+}
